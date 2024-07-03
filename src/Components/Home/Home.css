@@ -1,0 +1,102 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(23, 145, 182, 0.418),
+      rgba(10, 114, 175, 0.37)
+    ),
+    url("../../../public/image.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.home-container {
+  width: 80%;
+  padding: 15px;
+  color: #fff;
+}
+
+.home-container h3 {
+  font-size: 38px;
+}
+
+.home-container h2 {
+  font-size: 47px;
+}
+
+.h-animation {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: aquamarine;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.buttons button {
+  width: 140px;
+  height: 40px;
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.buttons button:hover{
+  background-color: #fff;
+  color: #000;
+  scale: 1.02;
+}
+
+.buttons .btn-serve{
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .2s;
+}
+
+
+.buttons .btn-serve:hover{
+  color: aquamarine;
+}
+
+@media (max-width: 700px){
+  .home{
+    width: 100%;
+  }
+
+  .home-container h3 {
+    font-size: 23px;
+  }
+  
+  .home-container h2 {
+    font-size: 37px;
+  }
+  
+  .h-animation {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: aquamarine;
+  }
+
+  .home-container p{
+    font-size: 13px;
+  }
+}
